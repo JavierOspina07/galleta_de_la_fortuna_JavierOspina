@@ -112,9 +112,9 @@ body {
 
   .phrase__container {
     --background: linear-gradient(to left, #f441a5 0%, #03a9f4 100%);
-    width: 190px;
+    width: 250px;
     height: 254px;
-    padding: 5px;
+    padding: 25px;
     border-radius: 20% 10%;
     overflow: visible;
     background: var(--background);
@@ -122,10 +122,14 @@ body {
     z-index: 1;
    }
    
+   p.phrase{
+    text-align: center;
+   }
+
    .phrase__container::after {
     position: absolute;
     content: "";
-    top: 30px;
+    top: 50px;
     left: 0;
     right: 0;
     z-index: -1;
@@ -136,32 +140,18 @@ body {
     background: var(--background);
     transition: opacity .5s;
    }
+
+
    
-   .phrase__container-info {
-    --color: #181818;
-    background: var(--color);
-    color: var(--color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-    border-radius: .7rem;
-   }
-   
-   .phrase__container .title {
+   .phrase__container{
+    margin: 50px;
     font-weight: bold;
     letter-spacing: .1em;
+    text-align: center;
    }
    
    /*Hover*/
    .phrase__container:hover::after {
     opacity: 0;
-   }
-   
-   .phrase__container:hover .card-info {
-    color: #f7ba2b;
-    transition: color 1s;
    }
    

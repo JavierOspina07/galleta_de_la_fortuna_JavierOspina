@@ -5,8 +5,6 @@ import { useState } from "react";
 
 function App() {
 
-  console.log(GameCard)
-
   const [index, setIndex] = useState(0)
 
   const changePhrase = () => {
