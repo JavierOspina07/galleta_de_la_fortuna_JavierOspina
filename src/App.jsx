@@ -5,8 +5,6 @@ import { useState } from "react";
 
 function App() {
 
-  console.log(phrases[0])
-
   const [index, setIndex] = useState(0)
 
   const changePhrase = () => {
