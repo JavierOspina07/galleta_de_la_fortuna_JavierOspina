@@ -2,7 +2,7 @@ const GameCard = ({data}) => {
     return (
       <div>
         <article className="card__countainer">
-          <h1>Galleta de la Fortuna</h1>
+          <h1 className="title">Galleta de la Fortuna</h1>
           <div className="phrase__container">
             <p className="phrase">{data.phrase}</p>
           </div>
