@@ -1,6 +1,6 @@
 import "./App.css";
-import GameCard from "./components/GameCard";
 import phrases from "./data/phrases.json"
+import GameCard from "./components/GameCard";
 import { useState } from "react";
 
 function App() {
