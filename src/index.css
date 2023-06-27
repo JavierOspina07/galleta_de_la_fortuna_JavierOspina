@@ -156,5 +156,13 @@ body {
     opacity: 0;
    }
 
+   .card__author {
+    background-color:  rgba(245, 245, 245, 0.7);
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+  }
+
+
 
   
