@@ -1,5 +1,5 @@
 import "./App.css";
-import GameCard from "./components/gameCard.jsx";
+import GameCard from "./components/GameCard";
 import phrases from "./data/phrases.json"
 import { useState } from "react";
 
