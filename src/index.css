@@ -38,7 +38,8 @@ body {
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    padding: 10px;
+    /* padding: 10px; */
+    padding-top: 50px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 25% 10%;
   }
@@ -114,7 +115,9 @@ body {
     --background: linear-gradient(to left, #f441a5 0%, #03a9f4 100%);
     width: 250px;
     height: 254px;
-    padding: 25px;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 20% 10%;
     overflow: visible;
     background: var(--background);
