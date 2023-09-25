@@ -1,4 +1,3 @@
-Por supuesto, aquí tienes un ejemplo de un README específicamente diseñado para GitHub:
 
 # Galleta de la Fortuna
 
@@ -12,7 +11,7 @@ Por supuesto, aquí tienes un ejemplo de un README específicamente diseñado pa
 
 ## Capturas de pantalla
 
-![Galleta de la Fortuna](screenshot.png)
+![Galleta de la Fortuna][def]
 
 ## Tecnologías utilizadas
 
@@ -44,3 +43,6 @@ Este proyecto está bajo la Licencia MIT. Si deseas obtener más información, p
 ---
 
 ¡Gracias por tu interés en la Galleta de la Fortuna! Si tienes alguna otra pregunta, no dudes en hacerla. ¡Disfruta de tu proyecto en GitHub!
+
+
+[def]: iconoGalleta.png
